@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+
+<body>
+  <!-- Rating state start -->
+  <section class="card__container1">
+    <div class="card__container1__star__container">
+      <img src="images/icon-star.svg" alt="" class="card__container1__star" />
+    </div>
+    <h1 class="card__container1__title">How did we do?</h1>
+    <p class="card__container1__paragraph">
+      Please let us know how we did with your support request. All feedback is
+      appreciated to help us improve our offering!
+    </p>
+    <div class="card__container1__number">
+      <button class="card__container1__number__items">1</button>
+      <button class="card__container1__number__items">2</button>
+      <button class="card__container1__number__items">3</button>
+      <button class="card__container1__number__items">4</button>
+      <button class="card__container1__number__items">5</button>
+      
+    </div>
+    <button class="card__container1__submit">Submit</button>
+  </section>
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+  <section class="card__container2">
+    <figure class="card__container2__img__container">
+      <img src="images/illustration-thank-you.svg" class="card__container2__img" alt="" />
+    </figure>
+    <!-- Add rating here -->
+    <p class="card__container2__selection">
+      You selected <span id="selected__number">4</span> out of 5
+    </p>
+    <h1 class="card__container2__title">Thank you!</h1>
+    <p class="section__container2__paragraph">
+      We appreciate you taking the time to give a rating. If you ever need
+      more support, don’t hesitate to get in touch!
+    </p>
+  </section>
+  <!-- Thank you state end -->
+
+  <div class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+      href="#">Carlos Urtubia Guzman</a>.
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
